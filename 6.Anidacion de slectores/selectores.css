@@ -1,0 +1,20 @@
+#button{
+    position: relative;
+    background-color: transparent;
+    border: 1px solid black;
+    padding: 10px;
+    cursor: pointer;
+    
+}
+#button::before {
+    content: "Pasa por encima";
+}
+
+#button:hover {
+    background-color: green;
+    color: white;
+}
+
+#button:active::before{
+    content: "Hecho";
+}
