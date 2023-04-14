@@ -1,0 +1,27 @@
+.btn-modern {
+    background-color:#04050f;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    }
+    
+.btn-modern{
+    align-items: center;
+    display: flex;
+    margin-top: 20%;
+    margin-left: 40%;
+    
+    }
+    .btn-modern:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.3);
+    background-color: #303f9f;
+    color: red;
+    }
+    
+
+
