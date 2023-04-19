@@ -1,0 +1,39 @@
+.container {
+display: flex;
+padding: 0;
+margin:0;
+flex-direction: row;;
+}
+
+.lateral_izquierda{
+    display: flex;
+    background-color: #dfc7c7;
+    justify-content: center;
+
+}
+
+li {
+    order: 1;
+    flex: 1;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size: x-large;
+}
+@media screen and (max-width: 640px) {
+    .lateral_izquierda {
+        flex-direction: row;
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        padding: 10px;}
+    }
+
+.prin_derecha{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+    background-color: rgb(216, 216, 216);
+    align-items: center;
+}
+
